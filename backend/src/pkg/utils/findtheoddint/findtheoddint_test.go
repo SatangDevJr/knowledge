@@ -7,7 +7,7 @@ import (
 	"github.com/stretchr/testify/assert"
 )
 
-func TestPermutations_Permutations(t *testing.T) {
+func TestFindTheOddInt_FindTheOddInt(t *testing.T) {
 	t.Run("should return 7 when input [7]", func(t *testing.T) {
 		got := findTheOddInt.FindOddInt([]int{7})
 
