@@ -1,0 +1,6 @@
+projectKey=testLogin
+serverUrl=http://10.7.55.57:9002
+serverVersion=8.4.1.35646
+dashboardUrl=http://10.7.55.57:9002/dashboard?id=testLogin
+ceTaskId=AX-csv_c9HqaCfnwaQ_d
+ceTaskUrl=http://10.7.55.57:9002/api/ce/task?id=AX-csv_c9HqaCfnwaQ_d

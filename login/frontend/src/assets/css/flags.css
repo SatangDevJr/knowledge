@@ -1,0 +1,13 @@
+.flag {
+    display: inline-block;
+    position: relative;
+    width: 16px;
+    height: 11px;
+    background: url("../images/flags.png") no-repeat;
+  }
+  .flag.flag-th {
+    background-position: -16px -143px;
+  }
+  .flag.flag-en {
+    background-position: -192px -33px;
+  }

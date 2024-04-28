@@ -1,0 +1,771 @@
+{
+    "language": "ไทย",
+    "systemname": "Login Test System",
+    "footername": "Copyright @2020 Thai Beverage Plc All Rights Reserved (1.0.0.0)",
+    "welcomewordstart": "ยินดีตอนรับคุณ ",
+    "welcomewordend": "เข้าสู่ระบบ",
+    "titlesystem": "ข้อความระบบ",
+    "menu": {
+        "menu1": "หน้าหลัก",
+        "menu2": "ออกใบส่งสินค้า",
+        "menu3": "เอกสารวางบิล",
+        "menu4": "รายการวางบิล",
+        "menu5": "ลงทะเบียน Wholesale",
+        "menu6": "หน้าหลัก",
+        "menu7": "จัดการข้อมูล",
+        "menu8": "จัดการโควต้า Wholesale",
+        "menu9": "รีเซ็ทการพิมพ์ตั๋ว",
+        "menu10": "จัดการข้อมูลผู้ใช้งาน"
+    },
+    "tokenexpired": {
+        "title": "ข้อความระบบ",
+        "content": "TokenExpired!!!",
+        "confirm": {
+            "title": "ยืนยัน",
+            "content": "Token คุณหมดอายุ !!! คุณต้องการต่อ Token ไหมจ๊ะ ?",
+            "ok": "ยืนยัน",
+            "cancel": "ยกเลิก"
+        }
+    },
+    "deliverynote": {
+        "title": "ออกใบส่งสินค้า",
+        "tooltipdeliverynote": "รายละเอียดออกใบส่งสินค้า",
+        "tooltipdelete": "ลบออกใบส่งสินค้า",
+        "tooltipprint": "พิมพ์ออกใบส่งสินค้า",
+        "table": {
+            "col1": "คู่ค้า",
+            "col2": "ลูกข่าย",
+            "col3": "ประเภทสินค้า",
+            "col4": "ปลายทาง",
+            "col5": "ปี - เดือน",
+            "col6": "จำนวนโควต้า",
+            "col7": "Action"
+        },
+        "btnadd": "เพิ่มใบส่งสินค้า",
+        "btnback": "ย้อนกลับ",
+        "modaladd": {
+            "title": "เพิ่มใบส่งสินค้า",
+            "partner": "คู่ค้า",
+            "producttype": "ประเภทสินค้า",
+            "subpartner": "ลูกข่าย",
+            "vendor": "ปลายทาง",
+            "yearandmonth": "ปี - เดือน",
+            "quotaamount": "จำนวนโควต้า",
+            "btnsubmit": "บันทึก",
+            "btncancel": "ยกเลิก",
+            "balance": "จำนวนโควต้าคงเหลือ : "
+        },
+        "modalsearch": {
+            "title": "ค้นหา",
+            "partner": "คู่ค้า",
+            "subpartner": "ลูกข่าย",
+            "material": "ประเภททสินค้า",
+            "vendor": "ปลายทาง",
+            "yearandmonth": "ปี - เดือน",
+            "btnclear": "ล้าง",
+            "btnsearch": "ค้นหา"
+        },
+        "modaledit": {
+            "title": "แก้ไขใบส่งสินค้า",
+            "partner": "คู่ค้า",
+            "producttype": "ประเภทสินค้า",
+            "subpartner": "ลูกข่าย",
+            "vendor": "ปลายทาง",
+            "yearandmonth": "ปี - เดือน",
+            "quotaamount": "โควต้าทั้งหมด",
+            "selected": "เลือกลบรายการ",
+            "items": " รายการ",
+            "btnsave": "บันทึก",
+            "btnadd": "เพิ่มโควต้า",
+            "btndelete": "ลบโควต้า",
+            "btncancel": "ยกเลิก",
+            "table": {
+                "col1": "เลขที่ตั๋ว"
+            }
+        },
+        "modalprint": {
+            "title": "พิมพ์เอกสารออกใบส่งสินค้า",
+            "btnpreview": "ดูตัวอย่าง",
+            "btnprint": "พิมพ์",
+            "btnback": "ย้อนกลับ",
+            "table": {
+                "col1": "คู่ค้า",
+                "col2": "ลูกข่าย",
+                "col3": "วันที่เอกสาร",
+                "col4": "เลขที่เอกสาร(ตั๋ว)",
+                "col5": "ปลายทาง",
+                "col6": "ผู้สั่งพิมพ์",
+                "col7": "ลำดับ"
+            }
+        },
+        "message": {
+            "confirm": {
+                "title": "ยืนยัน",
+                "content": "คุณต้องการเพิ่มรายการโควต้าใช่หรือไม่ ?",
+                "ok": "ยืนยัน",
+                "cancel": "ยกเลิก"
+            },
+            "success": {
+                "title": "ข้อความระบบ",
+                "content": "ทำรายการสำเร็จ"
+            },
+            "error": {
+                "title": "ข้อความระบบ",
+                "content": "เกิดข้อผิดพลาด !"
+            },
+            "errorData": {
+                "title": "ข้อความระบบ",
+                "content": "ไม่พบข้อมูล"
+            },
+            "update": {
+                "title": "ยืนยัน",
+                "content": "คุณต้องการแก้ไขใบส่งสินค้าใช่หรือไม่ ?",
+                "ok": "ยืนยัน",
+                "cancel": "ยกเลิก"
+            },
+            "deleteQuota": {
+                "title": "ยืนยัน",
+                "content": "คุณต้องการลบรายการโควต้าใช่หรือไม่ ?",
+                "ok": "ยืนยัน",
+                "cancel": "ยกเลิก"
+            },
+            "deletedeliverynote": {
+                "title": "ยืนยัน",
+                "content": "คุณต้องการลบใบส่งสินค้าใช่หรือไม่ ?",
+                "ok": "ยืนยัน",
+                "cancel": "ยกเลิก"
+            }
+        }
+    },
+    "invoice": {
+        "title": "เอกสารวางบิล",
+        "tooltipprint": "พิมพ์เอกสารวางบิล",
+        "tooltipreject": "เหตุผลไม่อนุมัติ",
+        "tooltipdoc": "แนบเอกสารวางบิล",
+        "table": {
+            "col1": "คู่ค้า",
+            "col2": "ลูกข่าย",
+            "col3": "วันที่เอกสาร",
+            "col4": "เลขที่เอกสาร(ตั๋ว)",
+            "col5": "ปลายทาง",
+            "col6": "สถานะเอกสาร",
+            "col7": "Action"
+        },
+        "state": {
+            "reject": "WAIT FOR REVISE",
+            "waitforaccounting": "WAIT FOR ACCOUNTING",
+            "completed": "COMPLETED",
+            "pending": "PENDING"
+        },
+        "modalsearch": {
+            "title": "ค้นหา",
+            "partner": "คู่ค้า",
+            "subpartner": "ลูกข่าย",
+            "date": "วันที่เริ่มต้น - สิ้นสุด",
+            "docno": "เลขที่เอกสาร (ตั๋ว)",
+            "vendor": "ปลายทาง",
+            "docstatus": "สถานะเอกสาร",
+            "btnclear": "ล้าง",
+            "btnsearch": "ค้นหา",
+            "startdate": "วันที่เริ่มต้น",
+            "enddate": "สิ้นสุด"
+        },
+        "modalattach": {
+            "title": "เอกสารแนบ",
+            "content": "Click or drag to this area to upload",
+            "validate": "รองรับประเภทเอกสาร PDF, PNG, JPG, JPEG เท่านั้น",
+            "validate2": "ขนาดไฟล์ไม่เกิน 5 MB , จำนวนไฟล์ไม่เกิน 5 ไฟล์",
+            "btnclear": "ล้าง",
+            "btnsavedraf": "บันทึกร่าง",
+            "btnapprove": "ส่งเอกสารวางบิล"
+        },
+        "message": {
+            "attach": {
+                "title": "ข้อความระบบ",
+                "sizemax": "ไม่สามารถอัปโหลดได้ เนื่องจากมีขนาดไฟล์เกิน 5 MB",
+                "limit": "ไม่สามารถอัปโหลดได้ เนื่องจากไฟล์เกิน 5 ไฟล์",
+                "fileDuplicate": "ไม่สามารถอัปโหลดได้ เนื่องจากมีชื่อไฟล์นี้อยู่แล้ว",
+                "fileType": "ไม่สามารถแนบไฟล์ได้ เนื่องจากประเภทไฟล์(.pdf,.png,.jpg,.jpeg) ไม่ถูกต้อง"
+            },
+            "approve": {
+                "title": "ยืนยัน",
+                "content": "คุณต้องการส่งเอกสารวางบิลใช่หรือไม่ ?",
+                "btnok": "ยืนยัน",
+                "btncancel": "ยกเลิก"
+            },
+            "successAttach": {
+                "title": "ข้อความระบบ",
+                "content": "รายการส่งเอกสารวางบิลเรียบร้อย"
+            },
+            "error": {
+                "title": "ข้อความระบบ"
+            },
+            "deleteAttach": {
+                "title": "ยืนยัน",
+                "content": "คุณต้องการลบไฟล์แนบใช่หรือไม่ ?",
+                "ok": "ยืนยัน",
+                "cancel": "ยกเลิก"
+            },
+            "success": {
+                "title": "ข้อความระบบ",
+                "content": "ทำรายการสำเร็จ"
+            },
+            "remark": {
+                "title": "เหตุผลในการ Reject",
+                "content": "",
+                "close": "ปิด"
+            },
+            "printflag": {
+                "success": {
+                    "title": "ข้อความระบบ",
+                    "content": "Reset Print เรียบร้อย"
+                }
+            },
+            "errorData": {
+                "title": "ข้อความระบบ",
+                "content": "ไม่พบข้อมูล"
+            }
+        },
+        "report": {
+            "excelheader": {
+                "col1": "เลขที่เอกสาร",
+                "col2": "แม่ข่าย",
+                "col3": "ลูกข่าย",
+                "col4": "ประเภทสินค้า",
+                "col5": "วันที่เอกสาร",
+                "col6": "ปลายทาง",
+                "col7": "สถานะ",
+                "col8": "สร้างโดย",
+                "col9": "วันที่สร้าง"
+            }
+        }
+    },
+    "deliverynotelist": {
+        "title": "รายการวางบิล",
+        "tooltipremark": "เหตุผลไม่อนุมัติ",
+        "tooltipreject": "ไม่อนุมัติใบส่งสินค้า",
+        "tooltipprint": "พิมพ์ใบส่งสินค้า",
+        "table": {
+            "col1": "คู่ค้า",
+            "col2": "ลูกข่าย",
+            "col3": "วันที่เอกสาร",
+            "col4": "เลขที่เอกสาร(ตั๋ว)",
+            "col5": "ปลายทาง",
+            "col6": "สถานะเอกสาร",
+            "col7": "Action"
+        },
+        "state": {
+            "reject": "REJECTED",
+            "waitforaccounting": "WAIT FOR ACCOUNTING",
+            "completed": "COMPLETED",
+            "pending": "PENDING"
+        },
+        "btnapprove": "ตรวจสอบวางบิล",
+        "message": {
+            "reject": {
+                "title": "เหตุผลในการ Reject",
+                "content": "ระบุเหตุผล",
+                "lableinput": "ระบุเหตุผล",
+                "placeholder": "เหตุผล",
+                "btnok": "ยืนยัน",
+                "btncancel": "ยกเลิก"
+            },
+            "rejectSuccess": {
+                "title": "ข้อความระบบ",
+                "content": "ไม่อนุมัติรายการเรียบร้อย"
+            },
+            "approve": {
+                "title": "ยืนยัน",
+                "content": "คุณต้องการอนุมัติรายการที่เลือกใช่หรือไม่ ?",
+                "btnok": "ยืนยัน",
+                "btncancel": "ยกเลิก"
+            },
+            "approvedSuccess": {
+                "title": "ข้อความระบบ",
+                "content": "อนุมัติรายการเรียบร้อย"
+            },
+            "error": {
+                "title": "ข้อความระบบ"
+            }
+        }
+    },
+    "login": {
+        "internal": {
+            "username": "รหัสพนักงาน/รหัสผู้ใช้งาน",
+            "password": "รหัสผ่าน",
+            "confirmpassword": "confirm password",
+            "btnlogin": "เข้าสู่ระบบ",
+            "btn365": "  เข้าสู่ระบบโดย Office365",
+            "remember": "อยู่ในสถานะลงชื่อเข้าใช้",
+            "forgetpassword": "ลืมรหัสผ่าน",
+            "stafflogin": "ผู้ใช้ภายในเครือ",
+            "userlogin": "ผู้ใช้ภายนอกเครือ"
+        },
+        "forgetpassword": {
+            "title": "ข้อความระบบ",
+            "content": "กรุณาติดต่อผู้ดูแลระบบ"
+        },
+        "emptypermission": {
+            "title": "ข้อความระบบ",
+            "contentstart": "รหัสพนักงาน",
+            "contentend": "ยังไม่ได้รับสิทธิ์เข้าใช้งานระบบ กรุณาติดต่อผู้ดูแลระบบ"
+        },
+        "register": "สมัครสมาชิก",
+        "message": {
+            "success": {
+                "title": "ข้อความระบบ",
+                "content": ""
+            },
+            "error": {
+                "title": "ข้อความระบบ",
+                "content": "ชื่อผู้ใช้ หรือ รหัสผ่านไม่ถูกต้อง"
+            }
+        }
+    },
+    "searchtext": "ระบุข้อความค้นหา...",
+    "btnsearch": "ค้นหา",
+    "btnclearsearch": "ล้าง",
+    "btnexport": "Export Excel",
+    "tooltipfilter": "",
+    "placeholder": "กรุณาระบุ ",
+    "placeholderattach": "กรุณาแนบ ",
+    "whosesalelist": {
+        "title": "รายชื่อคู่ค้าทั้งหมด",
+        "table": {
+            "col1": "คู่ค้า",
+            "col2": "ชื่อผู้ใช้งาน",
+            "col3": "Tax/Personal ID",
+            "col4": "E-mail",
+            "col5": "Address",
+            "col6": "เบอร์โทรศัพท์มือถือ",
+            "col7": "สถานะ",
+            "col8": "Action"
+        },
+        "btnadd": "ลงทะเบียน Wholesale",
+        "popuptitle": "ลงทะเบียน Wholesale",
+        "popupedit": "รายละเอียด Wholesale",
+        "popupsubpartner": "ข้อมูลลูกข่าย",
+        "tooltippartner": "รายละเอียดแม่ข่าย",
+        "tooltipsubpartner": "รายละเอียดลูกข่าย",
+        "tooltipresetpasswordpartner": "สร้าง Password ใหม่ให้เเม่ข่ายคนนี้",
+        "tooltipresetpasswordsubpartner": "สร้าง Password ใหม่ให้ลูกข่ายคนนี้",
+        "modalsearch": {
+            "title": "ค้นหา",
+            "lblPartner": "คู่ค้า",
+            "lblPartnerName": "ชื่อผู้ใช้งาน",
+            "lblTaxid": "Tax/Personal ID",
+            "lblTelephone": "เบอร์โทรศัพท์มือถือ",
+            "lblStatus": "สถานะผู้ใช้",
+            "btnClear": "ล้าง",
+            "btnSearch": "ค้นหา"
+        },
+        "modalresetpassword": {
+            "title": "รีเซ็ทรหัสผ่าน",
+            "content": "กดยืนยันเพื่อทำการรีเซ็ทรหัสผ่าน ระบบจะทำการเเจ้งไปทางอีเมลของผู้ใช้งาน",
+            "ok": "ยืนยัน",
+            "cancel": "ยกเลิก"
+        },
+        "message": {
+            "confirm": {
+                "title": "ยืนยัน",
+                "content": "คุณต้องการแก้ไขสถานะ Wholesale ใช่หรือไม่ ?",
+                "ok": "ยืนยัน",
+                "cancel": "ยกเลิก"
+            },
+            "resetPasswordSuccess": {
+                "title": "ดำเนินการสำเร็จ",
+                "content": "ระบบได้ทำการส่งรหัสผ่านไปทางอีเมลของผู้ใช้งาน"
+            }
+        }
+    },
+    "registerwhosesales": {
+        "btnEdit": "แก้ไข",
+        "btnBack": "ย้อนกลับ",
+        "btncancel": "ยกเลิก",
+        "btnsave": "บันทึก",
+        "grouptitleIdentification": "ประเภทผู้ประกอบการ",
+        "grouptitlecompanyprofile": "ข้อมูลบริษัท",
+        "grouptitlecontactprofile": "ข้อมูลผู้ติดต่อ",
+        "grouptitleattachefile": "เอกสารแนบ",
+        "radioIndividual": "บุคคลธรรมดา",
+        "radioCorporate": "นิติบุคคล",
+        "lblTaxRegistration": "เลขประจำตัวผู้เสียภาษี",
+        "placeHolderTaxRegistration": "0000000000000",
+        "lblBranchCode": "รหัสสาขา",
+        "placeHolderBranchCode": "00000",
+        "lblCardId": "เลขบัตรประชาชน",
+        "placeHolderCardId": "0000000000000",
+        "lblUserName": "ชื่อผู้ใช้งาน",
+        "placeHolderUserName": "XXXHQ",
+        "lblCompanyName": "ชื่อบริษัท",
+        "placeHolderCompanyName": "ชื่อบริษัท",
+        "lblBranchName": "ชื่อสาขา",
+        "placeHolderBranchName": "ชื่อสาขา",
+        "lblTitle": "คำนำหน้า",
+        "placeHolderSelect": "- เลือก -",
+        "lblFirstName": "ชื่อ",
+        "placeHolderFirstName": "ชื่อ",
+        "lblLastName": "นามสกุล",
+        "placeHolderLastName": "นามสกุล",
+        "lblServiceAndProducts": "Service and Products",
+        "placeHolderServiceAndProducts": "Service and Products",
+        "lblAddressNo": "เลขที่",
+        "placeHolderAddressNo": "เลขที่",
+        "lblBuildingFloor": "อาคาร/ชั้น",
+        "placeHolderBuildingFloor": "อาคาร/ชั้น",
+        "lblMooSoi": "หมู่/ซอย",
+        "placeHolderMooSoi": "หมู่/ซอย",
+        "lblStreet": "ถนน",
+        "placeHolderStreet": "ถนน",
+        "lblCountry": "ประเทศ",
+        "lblProvince": "จังหวัด",
+        "lblDistrict": "เขต/อำเภอ",
+        "lblSubDistrict": "แขวง/ตำบล",
+        "lblPostalCode": "รหัสไปรษณีย์",
+        "placeHolderPostalCode": "รหัสไปรษณีย์",
+        "lblOfficePhone": "เบอร์โทรศัพท์สำนักงาน",
+        "placeHolderOfficePhone": "เบอร์โทรศัพท์สำนักงาน",
+        "placeHolderOfficePhoneExt": "ต่อ",
+        "lblFaxNumber": "โทรสาร",
+        "placeHolderFaxNumber": "โทรสาร",
+        "placeHolderFaxNumberExt": "ต่อ",
+        "lblMobilePhone": "เบอร์โทรศัพท์มือถือ",
+        "placeHolderMobilePhone": "เบอร์โทรศัพท์มือถือ",
+        "lblWebSite": "เว็บไซต์",
+        "placeHolderWebSite": "เว็บไซต์",
+        "lblEmail": "E-mail",
+        "placeHolderEmail": "E-mail",
+        "lblPaymentTerm": "เงื่อนไขชำระเงิน",
+        "lblCurrency": "สกุลเงิน",
+        "message": {
+            "attach": {
+                "title": "ข้อความระบบ",
+                "sizemax": "ไม่สามารถอัปโหลดได้ เนื่องจากมีขนาดไฟล์เกิน 5 MB",
+                "limit": "ไม่สามารถอัปโหลดได้ เนื่องจากไฟล์เกิน 5 ไฟล์",
+                "fileDuplicate": "ไม่สามารถอัปโหลดได้ เนื่องจากมีชื่อไฟล์นี้อยู่แล้ว",
+                "fileType": "ไม่สามารถแนบไฟล์ได้ เนื่องจากประเภทไฟล์ไม่ถูกต้อง"
+            },
+            "error": {
+                "title": "ข้อความระบบ",
+                "errorCountry": "ข้อมูล Country",
+                "errorProvince": "ข้อมูล Province",
+                "errorDistrict": "ข้อมูล District",
+                "errorSubDistrict": "ข้อมูล Subdistrict",
+                "errorInvalidEmail": "Invalid Email",
+                "errorPartners": "ข้อมูล Partners",
+                "errorDataNotFound": "Data not found !!!",
+                "errorSubPartners": "ข้อมูล Sub Partners"
+            },
+            "successRegister": {
+                "title": "ข้อความระบบ",
+                "content": "ลงทะเบียน Wholesale เรียบร้อย"
+            },
+            "successEditRegister": {
+                "title": "ข้อความระบบ",
+                "content": "แก้ไขข้อมูลลงทะเบียน Wholesale เรียบร้อย"
+            },
+            "success": {
+                "title": "ข้อความระบบ",
+                "content": "ทำรายการสำเร็จ"
+            },
+            "errorsys": {
+                "title": "ข้อความระบบ",
+                "content": "เกิดข้อผิดพลาด !"
+            },
+            "erroruser": {
+                "title": "ข้อความระบบ",
+                "content": "ป้อนชื่อผู้ใช้งานไม่ถูกต้อง กรุณาตรวจสอบใหม่อีกครั้ง"
+            },
+            "errortax": {
+                "title": "ข้อความระบบ",
+                "content": "ป้อนเลขประจำตัวผู้เสียภาษีเป็นตัวเลขเท่านั้น กรุณาตรวจสอบใหม่อีกครั้ง"
+            },
+            "errorcardid": {
+                "title": "ข้อความระบบ",
+                "content": "ป้อนเลขบัตรประชาชนเป็นตัวเลขเท่านั้น กรุณาตรวจสอบใหม่อีกครั้ง"
+            },
+            "errorbranchcode": {
+                "title": "ข้อความระบบ",
+                "content": "ป้อนรหัสสาขาเป็นตัวเลขเท่านั้น กรุณาตรวจสอบใหม่อีกครั้ง"
+            },
+            "add": {
+                "title": "ยืนยัน",
+                "content": "คุณต้องการลงทะเบียน Wholesale ใช่หรือไม่ ?",
+                "btnok": "ยืนยัน",
+                "btncancel": "ยกเลิก"
+            },
+            "edit": {
+                "title": "ยืนยัน",
+                "content": "คุณต้องการแก้ไขข้อมูล Wholesale ใช่หรือไม่ ?",
+                "btnok": "ยืนยัน",
+                "btncancel": "ยกเลิก"
+            },
+            "uploadfailed": {
+                "title": "ข้อความระบบ",
+                "content": "อัปโหลดไฟล์ไม่สำเร็จ ไม่สามารถเพิ่ม เเม่ข่ายได้"
+            }
+        },
+        "attachesfiles": {
+            "lblFileVatRegistration": "ภพ.20/ภพ.09",
+            "contentRemark": "Click or drag to this area to upload",
+            "validateRemark": "รองรับประเภทเอกสาร .PDF เท่านั้น ขนาดไฟล์ไม่เกิน 5MB และจำนวนไฟล์ไม่เกิน 5 ไฟล์",
+            "lblFileCertificate": "หนังสือรับรอง",
+            "lblFileISO": "มาตรฐาน ISO",
+            "lblFileOther": "เอกสารอื่นๆ",
+            "lblFileCard": "สำเนาบัตรประชาชน"
+        }
+    },
+    "subpartner": {
+        "btnback": "ย้อนกลับ",
+        "btnsave": "บันทึก",
+        "btncancel": "ยกเลิก",
+        "btnadd": "เพิ่มลูกข่าย",
+        "table": {
+            "col1": "ชื่อผู้ใช้งาน",
+            "col2": "ลูกข่าย",
+            "col3": "เลขบัตรประชาชน",
+            "col4": "E-mail",
+            "col5": "เบอร์โทรศัพท์มือถือ",
+            "col6": "Action"
+        },
+        "title": "ลงทะเบียนลูกข่าย",
+        "lblUserName": "ชื่อผู้ใช้งาน",
+        "lblFirstName": "ชื่อ",
+        "placeHolderFirstName": "ชื่อ",
+        "lblLastName": "นามสกุล",
+        "placeHolderLastName": "นามสกุล",
+        "lblCardId": "เลขบัตรประชาชน",
+        "placeHolderCardId": "0000000000000",
+        "lblTelePhone": "เบอร์โทรศัพท์มือถือ",
+        "placeHolderTelePhone": "เบอร์โทรศัพท์มือถือ",
+        "lblEmail": "E-mail",
+        "placeHolderEmail": "E-mail",
+        "lblAddress": "ที่อยู่",
+        "placeHolderAddress": "ที่อยู่",
+        "message": {
+            "error": {
+                "title": "ข้อความระบบ",
+                "errorInvalidEmail": "กรุณาระบุ Email ที่ถูกต้อง"
+            },
+            "add": {
+                "title": "ยืนยัน",
+                "content": "คุณต้องการเพิ่มลูกข่าย ใช่หรือไม่ ?",
+                "btnok": "ยืนยัน",
+                "btncancel": "ยกเลิก"
+            },
+            "edit": {
+                "title": "ยืนยัน",
+                "content": "คุณต้องการแก้ไขข้อมูลลูกข่ายใช่หรือไม่ ?",
+                "btnok": "ยืนยัน",
+                "btncancel": "ยกเลิก"
+            },
+            "errorsys": {
+                "title": "ข้อความระบบ",
+                "content": "เกิดข้อผิดพลาด !"
+            },
+            "successSubRegister": {
+                "title": "ข้อความระบบ",
+                "content": "ลงทะเบียนลูกข่าย เรียบร้อย"
+            },
+            "successEditSubRegister": {
+                "title": "ข้อความระบบ",
+                "content": "แก้ไขข้อมูลลูกข่าย Wholesale เรียบร้อย"
+            },
+            "deletesuccess": {
+                "title": "ข้อความระบบ",
+                "content": "ลบข้อมูลลูกข่าย เรียบร้อย"
+            },
+            "deleteSubRegister": {
+                "title": "ยืนยัน",
+                "content": "คุณต้องการลบลูกข่ายรายนี้ใช่หรือไม่ ?",
+                "ok": "ยืนยัน",
+                "cancel": "ยกเลิก"
+            }
+        }
+    },
+    "quotalist": {
+        "title": "จัดการโควต้า Wholesale",
+        "table": {
+            "col1": "คู่ค้า",
+            "col2": "ประเภทสินค้า",
+            "col3": "ปลายทาง",
+            "col4": "ปี - เดือน",
+            "col5": "จำนวนโควต้า",
+            "col6": "Action",
+            "col7": "จำนวนคงเหลือ"
+        },
+        "btnadd": "เพิ่มโควต้า",
+        "tooltipquota": "รายละเอียดโควต้า",
+        "tooltipquotadelete": "ลบรายการโควต้า",
+        "tooltipquotaadd": "จำหน่ายโควต้า",
+        "modalpopup": {
+            "title": "เพิ่มโควต้า",
+            "titleedit": "แก้ไขโควต้า",
+            "partner": "คู่ค้า",
+            "material": "ประเภทสินค้า",
+            "vendor": "ปลายทาง",
+            "yearandmonth": "ปี - เดือน",
+            "quotaamount": "จำนวนโควต้า",
+            "btnsubmit": "บันทึก",
+            "btncancel": "ยกเลิก",
+            "btnedit": "บันทึก"
+        },
+        "modalsearch": {
+            "title": "ค้นหา",
+            "partner": "คู่ค้า",
+            "material": "ประเภททสินค้า",
+            "vendor": "ปลายทาง",
+            "yearandmonth": "ปี - เดือน",
+            "btnclear": "ล้าง",
+            "btnsearch": "ค้นหา"
+        },
+        "message": {
+            "error": {
+                "title": "ข้อความระบบ"
+            },
+            "success": {
+                "title": "ข้อความระบบ",
+                "content": "ทำรายการสำเร็จ"
+            },
+            "confirm": {
+                "title": "ยืนยัน",
+                "content": "คุณต้องการเพิ่มรายการโควต้าใช่หรือไม่ ?",
+                "ok": "ยืนยัน",
+                "cancel": "ยกเลิก"
+            },
+            "confirmedit": {
+                "title": "ยืนยัน",
+                "content": "คุณต้องการแก้ไขโควต้าใช่หรือไม่ ?",
+                "ok": "ยืนยัน",
+                "cancel": "ยกเลิก"
+            },
+            "confirmedelete": {
+                "title": "ยืนยัน",
+                "content": "คุณต้องการลบรายการโควต้าใช่หรือไม่?",
+                "ok": "ยืนยัน",
+                "cancel": "ยกเลิก"
+            }
+        }
+    },
+    "reprintticketlist": {
+        "title": "รีเซ็ทการพิมพ์ตั๋ว",
+        "tooltipreset": "รีเซ็ทการพิมพ์ตั๋ว",
+        "table": {
+            "col1": "คู่ค้า",
+            "col2": "ลูกข่าย",
+            "col3": "วันที่เอกสาร",
+            "col4": "เลขที่เอกสาร(ตั๋ว)",
+            "col5": "ปลายทาง",
+            "col6": "สถานะเอกสาร",
+            "col7": "Action"
+        },
+        "state": {
+            "reject": "WAIT FOR REVISE",
+            "waitforaccounting": "WAIT FOR ACCOUNTING",
+            "completed": "COMPLETED",
+            "pending": "PENDING"
+        },
+        "modalsearch": {
+            "title": "ค้นหา",
+            "partner": "คู่ค้า",
+            "subpartner": "ลูกข่าย",
+            "date": "วันที่เริ่มต้น - สิ้นสุด",
+            "docno": "เลขที่เอกสาร (ตั๋ว)",
+            "vendor": "ปลายทาง",
+            "docstatus": "สถานะเอกสาร",
+            "btnclear": "ล้าง",
+            "btnsearch": "ค้นหา",
+            "startdate": "StartDate",
+            "enddate": "EndDate"
+        },
+        "message": {
+            "errorData": {
+                "title": "ข้อความระบบ",
+                "content": "ไม่พบข้อมูล"
+            },
+            "confirm": {
+                "title": "ยืนยัน",
+                "content": "คุณต้องการรีเซ็ทการพิมพ์ตั๋วใช่หรือไม่ ?",
+                "ok": "ยืนยัน",
+                "cancel": "ยกเลิก"
+            }
+        }
+    },
+    "page": {
+        "footer1": "Showing",
+        "footer2": "of",
+        "footer3": "entries ",
+        "footer4": "Page"
+    },
+    "btnok": "ตกลง",
+    "btncancel": "ยกเลิก",
+    "btnsignout": "ออกจากระบบ",
+    "message": {
+        "success": {
+            "title": "ข้อความระบบ",
+            "content": "ทำรายการสำเร็จ"
+        },
+        "error": {
+            "title": "ข้อความระบบ",
+            "content": "เกิดข้อผิดพลาด !"
+        },
+        "errorData": {
+            "title": "ข้อความระบบ",
+            "content": "ไม่พบข้อมูล"
+        }
+    },
+    "userlist": {
+        "title": "จัดการข้อมูลผู้ใช้งาน",
+        "table": {
+            "col1": "รหัสพนักงาน",
+            "col2": "ชื่อ-นามสกุล",
+            "col3": "บริษัท",
+            "col4": "สิทธิ์การใช้งาน",
+            "col5": "Action"
+        },
+        "btnadd": "เพิ่มผู้ใช้งาน",
+        "tooltipedit": "แก้ไข",
+        "tooltipdelete": "ลบ",
+        "modaladd": {
+            "title": "เพิ่มข้อมูลผู้ใช้งาน",
+            "lblrole": "สิทธิ์การใช้งาน",
+            "table": {
+                "col1": "รหัสพนักงาน",
+                "col2": "ชื่อ",
+                "col3": "นามสกุล",
+                "col4": "บริษัท"
+            },
+            "btnsave": "บันทึก",
+            "btncancel": "ยกเลิก",
+            "lblsearch": "ค้นหาผู้ใช้งาน",
+            "placeholdersearch": "คำค้นหาอย่างน้อย 1 ตัว"
+        },
+        "modaledit": {
+            "title": "แก้ไขข้อมูลผู้ใช้งาน",
+            "lblusercode": "รหัสพนักงาน",
+            "lblusername": "ชื่อ-นามสกุล",
+            "lblrole": "สิทธิ์การใช้งาน",
+            "btnsave": "ตกลง",
+            "btncancel": "ยกเลิก"
+        },
+        "modalsearch": {
+            "title": "ค้นหา",
+            "userid": "รหัสพนักงาน",
+            "username": "ชื่อ-นามสกุล",
+            "company": "บริษัท",
+            "rolename": "สิทธิ์การใช้งาน",
+            "btnclear": "ล้าง",
+            "btnsearch": "ค้นหา"
+        },
+        "message": {
+            "confirm": {
+                "title": "ยืนยัน",
+                "contentadd": "คุณต้องการเพิ่มข้อมูลผู้ใช้งานใช่หรือไม่ ?",
+                "contentedit": "คุณต้องการแก้ไขข้อมูลผู้ใช้งานใช่หรือไม่ ?",
+                "contentdelete": "คุณต้องการลบข้อมูลผู้ใช้งานใช่หรือไม่ ?",
+                "ok": "ยืนยัน",
+                "cancel": "ยกเลิก"
+            }
+        }
+    }
+}
